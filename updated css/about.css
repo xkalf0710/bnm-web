@@ -1,0 +1,1081 @@
+.tours {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .tours .div {
+    background-color: var(--ui-white);
+    width: 1920px;
+    height: 3586px;
+    position: relative;
+  }
+  
+  .tours .overlap {
+    position: absolute;
+    width: 1920px;
+    height: 92px;
+    top: 0;
+    left: 0;
+  }
+  
+  .tours .button-small {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 24px;
+    position: absolute;
+    top: 24px;
+    left: 1588px;
+    background-color: #ffffff1a;
+    border-radius: 8px;
+    border: 0.24px solid;
+    border-color: var(--ui-white);
+    backdrop-filter: blur(10px) brightness(100%);
+    -webkit-backdrop-filter: blur(10px) brightness(100%);
+  }
+  
+  .tours .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.24px;
+    font-family: var(--header-6-semi-bold-16-font-family);
+    font-weight: var(--header-6-semi-bold-16-font-weight);
+    color: var(--ui-white);
+    font-size: var(--header-6-semi-bold-16-font-size);
+    text-align: center;
+    letter-spacing: var(--header-6-semi-bold-16-letter-spacing);
+    line-height: var(--header-6-semi-bold-16-line-height);
+    white-space: nowrap;
+    font-style: var(--header-6-semi-bold-16-font-style);
+  }
+  
+  .tours .img {
+    position: relative;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .tours .head-menu {
+    position: absolute;
+    width: 1920px;
+    height: 92px;
+    top: 0;
+    left: 0;
+    background-color: var(--variable-collection-blue);
+  }
+  
+  .tours .overlap-group {
+    position: relative;
+    height: 92px;
+    background-color: #ffffff05;
+  }
+  
+  .tours .line {
+    position: absolute;
+    width: 1224px;
+    height: 1px;
+    top: 91px;
+    left: 348px;
+    object-fit: cover;
+  }
+  
+  .tours .image {
+    position: absolute;
+    width: 85px;
+    height: 39px;
+    top: 27px;
+    left: 348px;
+  }
+  
+  .tours .div-wrapper {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 24px;
+    position: absolute;
+    top: 24px;
+    left: 1473px;
+    border-radius: 10px;
+    background: linear-gradient(
+      180deg,
+      rgb(24, 98, 255) 0%,
+      rgb(90, 155, 248) 100%
+    );
+  }
+  
+  .tours .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "SF Pro Display-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: Truepx;
+    white-space: nowrap;
+  }
+  
+  .tours .search-bar {
+    display: flex;
+    height: 3rem;
+    width: 470px;
+    /* align-items: center;
+    align-items: flex-start; */
+    gap: 10px;
+    padding: 10px 8px;
+    position: absolute;
+    top: 24px;
+    left: 725px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 0.24px solid;
+    border-color: var(--ui-white);
+    backdrop-filter: blur(10px) brightness(100%);
+    -webkit-backdrop-filter: blur(10px) brightness(100%);
+  }
+  
+  .tours .frame {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .tours .sr-search {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .tours .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--ui-blue-primary);
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: Truepx;
+    white-space: nowrap;
+  }
+  
+  .tours .text-wrapper-4 {
+    position: absolute;
+    height: 34px;
+    top: 35px;
+    left: 585px;
+    font-family: "SF Pro Display-Semibold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: Truepx;
+    white-space: nowrap;
+    /* bottom: 30px; */
+  }
+  
+  .tours .footer {
+    position: relative;
+    width: 1920px;
+    height: 449px;
+    top: 3550px;
+    right: 244px;
+    background-color: transparent;
+  }
+  
+  .tours .overlap-2 {
+    position: relative;
+    width: 1920px;
+    height: 449px;
+  }
+  
+  .tours .group {
+    position: absolute;
+    width: 1920px;
+    height: 449px;
+    top: 0;
+    left: 0;
+  }
+  
+  .tours .rectangle-wrapper {
+    position: relative;
+    width: 1922px;
+    height: 451px;
+    top: -1px;
+    left: -1px;
+    background-color: var(--variable-collection-blue);
+  }
+  
+  .tours .rectangle {
+    position: relative;
+    width: 1440px;
+    height: 74px;
+    top: 371px;
+    left: 22px;
+    background-color: var(--variable-collection-blue);
+  }
+  
+  .tours .image-2 {
+    position: absolute;
+    width: 160px;
+    height: 73px;
+    top: 127px;
+    left: 64px;
+  }
+  
+  .tours .group-2 {
+    position: absolute;
+    width: 152px;
+    height: 121px;
+    top: 101px;
+    left: 975px;
+  }
+  
+  .tours .explore-who-we-are-b {
+    position: absolute;
+    width: 150px;
+    top: 0;
+    left: 0;
+    font-family: "SF Pro Display-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: Truepx;
+  }
+  
+  .tours .group-3 {
+    position: absolute;
+    width: 152px;
+    height: 82px;
+    top: 39px;
+    left: 0;
+  }
+  
+  .tours .text-wrapper-5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: var(--header-6-medium-16-font-family);
+    font-weight: var(--header-6-medium-16-font-weight);
+    color: var(--ui-blue-primary);
+    font-size: var(--header-6-medium-16-font-size);
+    letter-spacing: var(--header-6-medium-16-letter-spacing);
+    line-height: var(--header-6-medium-16-line-height);
+    white-space: nowrap;
+    font-style: var(--header-6-medium-16-font-style);
+  }
+  
+  .tours .text-wrapper-6 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-family: var(--header-6-medium-16-font-family);
+    font-weight: var(--header-6-medium-16-font-weight);
+    color: var(--ui-white);
+    font-size: var(--header-6-medium-16-font-size);
+    letter-spacing: var(--header-6-medium-16-letter-spacing);
+    line-height: var(--header-6-medium-16-line-height);
+    white-space: nowrap;
+    font-style: var(--header-6-medium-16-font-style);
+  }
+  
+  .tours .text-wrapper-7 {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    font-family: var(--header-6-medium-16-font-family);
+    font-weight: var(--header-6-medium-16-font-weight);
+    color: var(--ui-white);
+    font-size: var(--header-6-medium-16-font-size);
+    letter-spacing: var(--header-6-medium-16-letter-spacing);
+    line-height: var(--header-6-medium-16-line-height);
+    white-space: nowrap;
+    font-style: var(--header-6-medium-16-font-style);
+  }
+  
+  .tours .frame-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: absolute;
+    top: 101px;
+    left: 425px;
+  }
+  
+  .tours .explore-who-we-are-b-2 {
+    position: relative;
+    width: 200px;
+    margin-top: -1.00px;
+    font-family: "SF Pro Display-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: Truepx;
+  }
+  
+  .tours .p {
+    position: relative;
+    width: 466px;
+    font-family: var(--header-6-medium-16-font-family);
+    font-weight: var(--header-6-medium-16-font-weight);
+    color: var(--ui-white);
+    font-size: var(--header-6-medium-16-font-size);
+    letter-spacing: var(--header-6-medium-16-letter-spacing);
+    line-height: var(--header-6-medium-16-line-height);
+    font-style: var(--header-6-medium-16-font-style);
+  }
+  
+  .tours .group-4 {
+    position: relative;
+    width: 176px;
+    height: 48px;
+  }
+  
+  .tours .fb-wrapper {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 0;
+    left: 0;
+    background-color: var(--ui-blue-primary);
+    border-radius: 100px;
+    overflow: hidden;
+  }
+  
+  .tours .fb {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    top: 12px;
+    left: 12px;
+    background-image: url(https://c.animaapp.com/5SBMcBtQ/img/--2.svg);
+    background-size: 100% 100%;
+  }
+  
+  .tours .frame-3 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 0;
+    left: 64px;
+  }
+  
+  .tours .frame-wrapper {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 0;
+    left: 128px;
+    background-color: var(--ui-blue-primary);
+    border-radius: 100px;
+    overflow: hidden;
+  }
+  
+  .tours .ig-wrapper {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    top: 12px;
+    left: 12px;
+  }
+  
+  .tours .ig {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background-image: url(https://c.animaapp.com/5SBMcBtQ/img/--3.svg);
+    background-size: 100% 100%;
+  }
+  
+  .tours .phone {
+    position: relative;
+    width: 486px;
+    font-family: var(--header-6-medium-16-font-family);
+    font-weight: var(--header-6-medium-16-font-weight);
+    color: var(--ui-white);
+    font-size: var(--header-6-medium-16-font-size);
+    letter-spacing: var(--header-6-medium-16-letter-spacing);
+    line-height: var(--header-6-medium-16-line-height);
+    font-style: var(--header-6-medium-16-font-style);
+  }
+  
+  .tours .rectangle-2 {
+    position: absolute;
+    width: 1920px;
+    height: 60px;
+    top: 389px;
+    left: 0;
+    background: linear-gradient(180deg, rgb(1, 59, 125) 0%, rgb(24, 98, 255) 100%);
+  }
+  
+  .tours .copyright-brave {
+    position: absolute;
+    height: 22px;
+    top: 407px;
+    left: 809px;
+    opacity: 0.7;
+    font-family: var(--header-6-medium-16-font-family);
+    font-weight: var(--header-6-medium-16-font-weight);
+    color: #ffffff;
+    font-size: var(--header-6-medium-16-font-size);
+    letter-spacing: var(--header-6-medium-16-letter-spacing);
+    line-height: var(--header-6-medium-16-line-height);
+    white-space: nowrap;
+    font-style: var(--header-6-medium-16-font-style);
+  }
+  
+  .tours .group-5 {
+    position: absolute;
+    width: 182px;
+    height: 148px;
+    top: 101px;
+    left: 1305px;
+  }
+  
+  .tours .badge-app-store {
+    position: absolute;
+    width: 165px;
+    height: 45px;
+    top: 38px;
+    left: 0;
+    border-radius: 5px;
+    background: linear-gradient(
+      180deg,
+      rgb(24, 98, 255) 0%,
+      rgb(90, 155, 248) 100%
+    );
+  }
+  
+  .tours .app-store {
+    position: absolute;
+    width: 115px;
+    height: 29px;
+    top: 8px;
+    left: 24px;
+  }
+  
+  .tours .badge-google-play {
+    position: absolute;
+    width: 165px;
+    height: 45px;
+    top: 103px;
+    left: 0;
+    background-color: var(--ui-white);
+    border-radius: 5px;
+  }
+  
+  .tours .google-play {
+    position: absolute;
+    width: 127px;
+    height: 31px;
+    top: 7px;
+    left: 20px;
+  }
+  
+  .tours .text-wrapper-8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: var(--header-6-semi-bold-16-font-family);
+    font-weight: var(--header-6-semi-bold-16-font-weight);
+    color: var(--ui-white);
+    font-size: var(--header-6-semi-bold-16-font-size);
+    letter-spacing: var(--header-6-semi-bold-16-letter-spacing);
+    line-height: var(--header-6-semi-bold-16-line-height);
+    white-space: nowrap;
+    font-style: var(--header-6-semi-bold-16-font-style);
+  }
+  .tours .frame-22 {
+    position: absolute;
+    width: 1428px;
+    height: 299px;
+    top: 1659px;
+    left: 244px;
+  }
+.start {
+  top: 200px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.start-text {
+  width: 626px;
+  position: relative;
+  display: block;
+  left: 250px;
+  line-height: 52px;
+}
+.start-text h1 {
+  font-size: 40px;
+  margin-bottom: 24px;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-weight: bold;
+}
+.start-text p {
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 24px;
+  width: 547px;
+  text-align: justify;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+}
+.srt-btn {
+  background: #1862FF ;
+  width: 244px;
+  height: 56px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  color: #fff;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+}
+.red {
+  color: #D80027;
+}
+.start-img {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 280px;
+  bottom: 35px;
+}
+.start-img img {
+  width: 400px;
+}
+#img-1 {
+  width: 271px;
+  height: 150px;
+  border-radius: 20px;
+  position: relative;
+  left: 95px;
+  bottom: 35px;
+  box-shadow: 2px 3px 3px grey
+}
+#img-2 {
+  width: 446px;
+  height: 250px;
+  border-radius: 20px;
+  position: relative;
+  left: 100px;
+  z-index: 2;
+  box-shadow: 2px 3px 3px grey
+}
+#img-3 {
+  width: 446px;
+  height: 250px;
+  border-radius: 20px;
+  position: relative;
+  bottom: 30px;
+  right: 5px;
+  box-shadow: 2px 3px 3px grey
+}
+#img-4 {
+  width: 271px;
+  height: 150px;
+  border-radius: 20px;
+  position: relative;
+  bottom: 95px;
+  box-shadow: 2px 3px 3px grey
+}
+.about {
+  width: 1920px;
+  height: 607px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 600px;
+  text-align: center;
+  align-items: center;
+  background: #A1BEFF;
+  box-shadow: inset -50px -50px 300px paleturquoise
+}
+.about h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  margin: 40px 0;
+}
+.about p {
+  width: 1432px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  margin-bottom: 80px;
+}
+.about-text {
+  z-index: 2;
+}
+.about-img {
+  display: flex;
+  flex-direction: row;
+  gap: 41px;
+}
+#img-5 {
+  width: 400px;
+  height: 223px;
+  border-radius: 20px;
+  z-index: 2;
+  box-shadow: 2px 3px 3px grey
+}
+#img-6 {
+  width: 450px;
+  height: 250px;
+  border-radius: 20px;
+  position: relative;
+  bottom: 17px;
+  z-index: 2;
+  box-shadow: 2px 3px 3px grey
+}
+#img-7 {
+  width: 400px;
+  height: 223px;
+  border-radius: 20px;
+  z-index: 2;
+  box-shadow: 2px 3px 3px grey
+}
+#vec-1 {
+  position: relative;
+  bottom: 280px;
+  right: 200px;
+  z-index: 1;
+  width: 1118px;
+  height: 377px;
+}
+#vec-2 {
+  position: relative;
+  width: 400px;
+  height: 250px;
+  bottom: 637px;
+  left: 200px;
+  z-index: 1;
+}
+.why {
+  width: 1920px;
+  height: 979px;
+  background: #E8EFFF;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 730px;
+  align-items: center;
+  /* justify-content: center; */
+}
+.imag-1 {
+  background: url(/website-tour-main/img/about/Why/1.png)  no-repeat center center/cover;
+  width: 468px;
+  height: 263px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 70px;
+}
+.imag-1 p{
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-size: 20px;
+  background: rgba(250, 250, 250, 0.85);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 3px grey
+
+}
+.imag-1 h1 {
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  bottom: 30px;
+}
+.imag-2 {
+  background: url(/website-tour-main/img/about/Why/2.png)  no-repeat center center/cover;
+  width: 468px;
+  height: 263px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 70px;
+}
+.imag-2 p{
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-size: 20px;
+  background: rgba(250, 250, 250, 0.85);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 3px grey
+}
+.imag-2 h1 {
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  bottom: 30px;
+}
+.imag-3 {
+  background: url("/website-tour-main/img/about/Why/3.png")no-repeat center center/cover;
+  width: 468px;
+  height: 263px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 70px;
+}
+.imag-3 h1 {
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  bottom: 30px;
+}
+.imag-3 p{
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-size: 20px;
+  background: rgba(250, 250, 250, 0.85);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 3px grey
+}
+.imag-4 {
+  background: url(/website-tour-main/img/about/Why/4.png)  no-repeat center center/cover;
+  width: 468px;
+  height: 263px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 70px;
+}
+.imag-4 h1 {
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  bottom: 30px;
+}
+.imag-4 p{
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-size: 20px;
+  background: rgba(250, 250, 250, 0.85);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 3px grey
+}
+.imag-5 {
+  background: url(/website-tour-main/img/about/Why/5.png)  no-repeat center center/cover;
+  width: 468px;
+  height: 263px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 70px;
+}
+.imag-5 h1 {
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  bottom: 30px;
+}
+.imag-5 p{
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-size: 20px;
+  background: rgba(250, 250, 250, 0.85);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 3px grey
+}
+.why-img {
+  width: 957px;
+  height: 311px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.why-text {
+  position: relative;
+  top: 100px;
+  width: 1435px;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  border-bottom: #000000 solid 2px;
+  border-top: #000000 solid 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.why-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.why-text p {
+  width: 708px;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.why-img-2 {
+  display: flex;
+  flex-direction: row;
+  top: 80px;
+  position: relative;
+  gap: 20px;
+}
+.why-img-2 img {
+  width: 468px;
+  height: 263px;
+}
+#vec-3 {
+  position: relative;
+  top: 100px;
+}
+#vec-4 {
+  position: relative;
+  top: 100px;
+  right: 470px;
+}
+#vec-5 {
+  position: relative;
+  top: 100px;
+  left: 500px;
+}
+#vec-6 {
+  position: relative;
+  top: -100px;
+  right: 250px;
+}
+#vec-7 {
+  position: relative;
+  top: -100px;
+  left: 250px;
+}
+.more {
+  position: relative;
+  display: flex;
+  top: 900px;
+  flex-direction: column;
+}
+.share {
+  display: flex;
+}
+.share-text {
+  width: 831px;
+  height: 350px;
+  position: relative;
+  left: 245px;
+}
+.share-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  line-height: 52px;
+}
+.share-text p {
+  font-size: 20px;
+  text-align: justify;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+.share-model {
+  position: relative;
+  left: 200px;
+  bottom: 130px;
+}
+.share-model img {
+  width: 850px;
+}
+.share-text .srt-btn {
+  position: relative;
+  left: 590px;
+  width: 185px;
+  text-align: center;
+}
+.team {
+  display: flex;
+  position: relative;
+  flex-direction: row-reverse;
+  width: 1432px;
+  height: 587px;
+  left: 340px;
+}
+.team-text {
+  width: 728px;
+  height: 270px;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+}
+.team-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 52px;
+  margin-bottom: 40px;
+}
+.team-text p {
+  font-size: 20px;
+  line-height: 26px;
+  text-align: justify;
+  width: 650px;
+  height: 130px;
+}
+#img-8 {
+  width: 447px;
+  height: 257px;
+  border-radius: 20px;
+  position: relative;
+  left: 20px;
+  bottom: 35px;
+  box-shadow: 2px 3px 3px grey
+}
+#img-9 {
+  width: 163px;
+  height: 244px;
+  border-radius: 20px;
+  position: relative;
+  left: 32px;
+  bottom: 90px;
+  box-shadow: 2px 3px 3px grey
+}
+#img-10 {
+  width: 163px;
+  height: 244px;
+  border-radius: 20px;
+  position: relative;
+  left: 85px;
+  bottom: 39px;
+  box-shadow: 2px 3px 3px grey
+}
+#img-11 {
+  width: 447px;
+  height: 257px;
+  border-radius: 20px;
+  position: relative;
+  left: 95px;
+  bottom: 80px;
+  box-shadow: 2px 3px 3px grey
+}
+.team-img {
+  position: relative;
+  right: 200px;
+}
+.review {
+  width: 1920px;
+  height: 876px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 900px;
+  align-items: center;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  background: #E8EFFF;
+}
+.review #h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 100px;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  margin-left: 250px;
+}
+.review #p {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  margin-left: 250px;
+}
+.story {
+  width: 449px;
+  display: flex;
+  flex-direction: column-reverse;
+  background: #fff;
+  justify-content: center;
+  border-radius: 20px;
+}
+.story h1 {
+  font-size: 23px;
+  font-weight: bold;
+  padding: 20px;
+}
+.story p {
+  font-size: 18px;
+  line-height: 23px;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.story img {
+  width: 449px;
+  height: 299px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.review-story {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.final {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 1000px;
+  justify-content: center;
+  gap: 200px;
+}
+.final-text {
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  width: 600px;
+  position: relative;
+  top: 20px;
+}
+.final-text h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.final-text p {
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+.final-img img {
+  width: 525px;
+  height: 301px;
+  border-radius: 20px;
+}
+.final-text .srt-btn {
+  width: 307px;
+}

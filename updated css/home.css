@@ -1,0 +1,1534 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    box-sizing: border-box;
+    background-color: #E8EFFF;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    background-color: #013B7D;
+    color: #f0f0f0;
+    padding: 10px 20px;
+    height: 60px;
+  }
+  .div {
+    width: 1252px;
+    margin: 0px 348px;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    font-size: 1rem;
+    font-family: "SF Pro Display-Medium", Helvetica;
+  }
+  .menu a:first-child {
+    margin-right: 11px;
+  }
+  .menu a:last-child {
+    margin-right: 122px;
+    margin-left: 140px;
+  }
+  .menu a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+  }
+  .menu a img {
+    height: 38px;
+  }
+  .menu a:hover {
+    background-color: #013b7a;
+  }
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-left: 10vw;
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    width: 470px;
+    margin: auto;
+    height: 44px;
+    margin-right: 300px;
+  }
+
+  .search-bar input[type="text"] {
+    width: 100%;
+    height: 1005;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  .head-menu {
+    height: 410px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    background: url(website-tour-main/img/Home/image\ 186.png) no-repeat center center/cover;
+    margin-bottom: 150px;
+  }
+  .head-menu h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 88px;
+    margin-left: 348px;
+    line-height: 56px;
+    color: #fff;
+    margin-bottom: 87px;
+  }
+  .menu-bar {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+  }
+  .menu-bar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 132px;
+    width: 242px;
+    color: #000000;
+    background: #fff;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .menu-bar a:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+  }
+  .top-img a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 8px 24px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: inset 20px 20px 100px rgba(255, 255, 255, 0.3);
+  }
+  .top {
+    margin-bottom: 73px;
+  }
+  .top h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .top-1 h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    margin-bottom: 24px;
+    margin-top: 64px;
+    text-align: left;
+  }
+
+  .ub {
+    display: flex;
+    flex-direction: column;
+    padding-top: 53px;
+    padding-bottom: 79px;
+    align-items: center;
+    background: url(website-tour-main/img/Home/Frame\ 48335.png)no-repeat center center/cover;
+  }
+  .ub img {
+    width: 320px;
+    height: 60px;
+    margin-bottom: 24px;
+  }
+  .thumb {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 348px;
+    bottom: 300px;
+    width: 1252px;
+    gap: 20.5px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  .thumb-w {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 348px;
+    bottom: 590px;
+    width: 1252px;
+    gap: 20.5px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  .thumb-n {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 348px;
+    bottom: 590px;
+    width: 1252px;
+    gap: 20.5px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  .thumb-w h1 {
+    font-family: "SF Pro Display", Helvetica;
+    font-size: 40px;
+  }
+  .thumb-n h1 {
+    font-family: "SF Pro Display", Helvetica;
+    font-size: 40px;
+  }
+  .thumb-1 {
+    display: flex;
+    flex-direction: row;
+    width: 1252px;
+    flex-wrap: nowrap;
+    gap: 20.5px;
+  }
+  .thumb-1 .two-h {
+  }
+  .two-h img {
+    width: 601.5px;
+    height: 290px;
+    border-radius: 20px;
+  }
+  .sqr img{
+    width: 290px;
+    border-radius: 20px;
+  }
+  .thumb-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20.5px;
+  }
+  .two-v img {
+    height: 601.5px;
+    width: 290px;
+    border-radius: 20px;
+  }
+  .two-sqr img {
+    height: 601.5px;
+    width: 601.5px;
+    border-radius: 20px;
+  }
+  #ptv {
+    
+  }
+  #sp {
+    height: 601.5px;
+    width: 601.5px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/PlacestoVisit.jpg);
+    font-family: "SF Pro Display", Helvetica;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  #sp h1 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 358px;
+    display: flex;
+    align-self: flex-start;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  #sp a {
+    background: #fff;
+    color: #000000;
+    margin: 6px;
+    padding: 5px 0px;
+    padding-left: 16px;
+    border-radius: 15px;
+    font-family: "SF Pro Display", Helvetica;
+    font-weight: 700;
+  }
+  #ptv {
+    width: 170px;
+    text-align: right;
+    letter-spacing: 0.5px;
+  }
+  #sp a:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  #sp a i {
+    margin-left: 10px;
+    margin-right: 16px;
+    color: #B91332;
+  }
+  #sp-1 {
+    height: 601.5px;
+    width: 290px;
+    padding: 24px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/VirtualCityTour.jpg) no-repeat center center/cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  #sp-1:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  #sp-2 {
+    height: 601.5px;
+    width: 290px;
+    padding: 24px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/Last/HistoryoftheCapital.jpg) no-repeat center center/cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  #sp-2:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  #sp-1 h1 {
+    font-size: 32px;
+    font-family: "SF Pro Display", Helvetica;
+    color: #fff;
+    margin-bottom: 247px;
+    display: flex;
+    align-self: flex-start;
+    font-weight: 700;
+  }
+  #sp-2 h1 {
+    font-size: 32px;
+    font-family: "SF Pro Display", Helvetica;
+    color: #fff;
+    margin-bottom: 247px;
+    display: flex;
+    align-self: flex-start;
+    font-weight: 700;
+  }
+  
+  .div {
+    width: 1252px;
+    margin: auto;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+  }
+  .three-h img {
+    height: 290px;
+    width: 912px;
+    border-radius: 20px;
+  }
+  .h-comp-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20.5px;
+  }
+  .h-comp-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20.5px;
+  }
+  .comp-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20.5px;
+  }
+  .thumb-3 {
+    display: flex;
+    gap: 20.5px;
+  }
+  .thumb-5 {
+    display: flex;
+    gap: 20.5px;
+  }
+  .thumb-6 {
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+    position: relative;
+    bottom: 315.5px;
+  }
+  .fix-1 {
+    position: relative;
+    bottom: 315.5px;
+  }
+  .thumb h1 {
+    font-family: "SF Pro Display", Helvetica;
+    font-size: 40px;
+    /* font-weight: bold; */
+  }
+
+.footer {
+    display: flex;
+    background-color: #013B7D;
+    height: 450px;
+    width: 100%;
+    color: #fff;
+    padding-top: 100px;
+    margin-top: 150px;
+}
+.footer .logo img {
+    width: 160px;
+    height: 73px;
+}
+.footer .logo {
+    margin-left: 60px;
+    margin-right: 200px;
+    margin-top: 26px;
+    height: 73px;
+}
+.footer .contact {
+    font-family: "SF Pro Display-Medium", Helvetica;
+    width: 506px;
+    height: 253px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.footer .contact h1 {
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+.footer .contact p {
+    margin-bottom: 24px;
+}
+.footer .contact li {
+    list-style: none;
+    text-align: left;
+}
+.footer .social {
+    margin-bottom: 24px;
+}
+.footer .support {
+    font-family: "SF Pro Display-Medium", Helvetica;
+    text-align: left;
+    margin-left: 64px;
+    margin-right: 180px;
+}
+.footer .support h1 {
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.footer .support li {
+    list-style: none;
+    line-height: 32px;
+}
+.footer .app {
+    font-family: "SF Pro Display-Medium", Helvetica;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer .app h1 {
+    font-weight: bold;
+}
+.footer .app img {
+    margin-bottom: 4px;
+}
+#tour-info {
+    width: 601.5px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/TouristInformation.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#tour-info:hover {
+  transform: scale(1.1); /* Slightly increase size */
+  box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#nomad {
+    height: 601.5px;
+    width: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/NomadicCulture.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  #nomad:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+  }
+#rel {
+    height: 601.5px;
+    width: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/Religion.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  #rel:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+  }
+  #ran {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/Last/Content.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  #ran:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+  }
+  #hist {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/History.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+    
+  }
+  #hist:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+  }
+  #day-trip {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/DayTrips.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  #day-trip:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+  }
+  #day-trip div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 8px 24px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: inset 20px 20px 100px rgba(255, 255, 255, 0.3);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  #western {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/WesternMongolia.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  #western:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+  }
+  #western div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 8px 24px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: inset 20px 20px 100px rgba(255, 255, 255, 0.3);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+    
+  #east {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/EasternMongolia.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  #east:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+  }
+  #east div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 8px 24px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: inset 20px 20px 100px rgba(255, 255, 255, 0.3);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+  #north {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/Last/NorthernDestination.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  
+#north:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+  #north div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 8px 20px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: inset 20px 20px 100px rgba(255, 255, 255, 0.3);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  #central {
+    width: 601.5px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/CentralMongolia.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+#central:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#central div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 8px 24px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: inset 20px 20px 100px rgba(255, 255, 255, 0.3);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+#south {
+    width: 601.5px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/SouthernMongolia.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#south:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#south div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 8px 24px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: inset 20px 20px 100px rgba(255, 255, 255, 0.3);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+  #day-trip-1 {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/AccDaytrips.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  #day-trip-1:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+  }
+  #day-trip-1 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 8px 24px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: inset 20px 20px 100px rgba(255, 255, 255, 0.3);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  #western-1 {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/AccWestern.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  #western-1:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+  }
+  #western-1 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 8px 24px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: inset 20px 20px 100px rgba(255, 255, 255, 0.3);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+    
+  #east-1 {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/AccEastern.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  #east-1:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+  }
+  #east-1 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 8px 24px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: inset 20px 20px 100px rgba(255, 255, 255, 0.3);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+  #north-1 {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/AccNorthern.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  
+#north-1:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+  #north-1 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 8px 20px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: inset 20px 20px 100px rgba(255, 255, 255, 0.3);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  #central-1 {
+    width: 601.5px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/AccCentral.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+#central-1:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#central-1 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 8px 24px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: inset 20px 20px 100px rgba(255, 255, 255, 0.3);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+#south-1 {
+    width: 601.5px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/AccSouthern.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#south-1:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#south-1 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 8px 24px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: inset 20px 20px 100px rgba(255, 255, 255, 0.3);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+#accom h1 {
+    margin-top: 100px;
+}
+#dest h1 {
+    margin-top: 50px;
+}
+.oper {
+    display: flex;
+    margin-top: 173px;
+}
+.oper-img {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.oper-img #img-1 {
+    width: 392px;
+    height: 522px;
+    border-radius: 196px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4); /* Add a shadow effect */
+}
+.oper-img #img-2 {
+    width: 322px;
+    height: 386px;
+    border-radius: 161px;
+    border: #fff solid 10px;
+    position: relative;
+    top: 200px;
+    right: 90px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4); /* Add a shadow effect */
+}
+.oper-text {
+    flex: 1;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    text-align: left;
+    padding: 90px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+}
+.oper-text h2 {
+    color: #0047E0;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.oper-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    line-height: 67px;
+}
+.text-red {
+   color: #B91332
+}
+.text-blue {
+    color: #1862FF;
+}
+.text-dark-blue {
+    color: #013B7D;
+}
+.oper-text p {
+    color: #808080;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 44px;
+}
+.stat {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+.stat h1 {
+    color: #0047E0;
+    line-height: 0px;
+}
+.exp {
+    flex: 1;
+}
+.trip {
+    flex: 1;
+}
+.cust {
+    flex: 1;
+}
+.rate {
+    flex: 1;
+}
+#act {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/Last/Activities.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#act:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#hotel {
+    width: 290px;
+    height: 601.5px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/Last/Hotels.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#hotel:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#hosp {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/Last/Hospitals.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#hosp:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#food {
+    width: 601.5px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/Last/Food.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#food:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#shop {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/Last/Shopping.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#shop:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#guest {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/Last/Guesthouse.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#guest:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#well {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/Last/Wellness.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#well:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#night {
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/Last/Nightlife.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#night:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#fashion {
+    width: 290px;
+    height: 601.5px;
+    border-radius: 20px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/Last/fashion.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#fashion:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#commer {
+    margin-top: 36px;
+}
+.event {
+    display: flex;
+    width: 100%;
+    justify-items: center;
+    flex-direction: column;
+    padding-top: 0px;
+    justify-content: space-between;
+    font-family: "SF Pro Display-Medium", Helvetica;
+}
+.event h1 {
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.ev-1 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.ev-1 h1 {
+    padding: 0px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.ev-1 h2 {
+    font-size: 16px;
+    color: #013B7D;
+    text-align: center;
+}
+.bg-sp {
+    background: url(website-tour-main/img/Home/Frame\ 48335.png) no-repeat center center/cover;
+    width: 100%;
+    height: 419px;
+    margin-bottom: 304px;
+    display: flex;
+    justify-content: center;
+}
+.bg-sp .thumb-1 {
+    align-items: center;
+    justify-content: center;
+    gap: 138px;
+    padding-bottom: 64px;
+}
+.bg-sp .h-comp-1 {
+    align-items: center;
+    justify-content: center;
+    gap: 162px;
+    position: sticky;
+    width: 1252px;
+
+}
+.bg-sp .ev-1 {
+    position: relative;
+    bottom: 150px;
+}
+.ev-1 a {
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#naadam {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/Naadam.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#naadam:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#tf {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/TengerFestival.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#tf:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#gef {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/GoldenEagleFestival.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#gef:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#dm {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/DeelteiMongol-159.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#dm:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#dn {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/DanshigNaadam.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#dn:hover {
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+.accom {
+    text-align: center;
+}
+
+/*  */
+.heart-radio-group {
+    display: flex;
+    gap: 15px;
+}
+
+label {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    display: none; /* Hide default radio button */
+}
+
+.heart i {
+    position: relative;
+    display: block;
+    margin: auto;
+    color: #333;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+input[type="checkbox"]:checked + .heart i {
+    color: #e63946;
+    transform: scale(1.1);
+}
+
+.heart i:hover {
+    transform: scale(1.3); /* Slightly increase size */
+}
+.rec-tour .slide-show {
+    margin: 0px;
+}
+.r-tour {
+    width: 392px;
+    height: 526px;
+}
+#rec-tour-1 {
+    width: 381px;
+    height: 333px;
+    border: #808080 solid 1px;
+    border-radius: 30px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/Naadam.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#rec-tour-1:hover {
+    transform: scale(1.065); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#rec-tour-2 {
+    width: 381px;
+    height: 333px;
+    border: #808080 solid 1px;
+    border-radius: 30px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/NomadicCulture.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#rec-tour-2:hover {
+    transform: scale(1.065); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#rec-tour-3 {
+    width: 381px;
+    height: 333px;
+    border: #808080 solid 1px;
+    border-radius: 30px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/AccNorthern.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#rec-tour-3:hover {
+    transform: scale(1.065); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#rec-tour-4 {
+    width: 381px;
+    height: 333px;
+    border: #808080 solid 1px;
+    border-radius: 30px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/DanshigNaadam.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#rec-tour-4:hover {
+    transform: scale(1.065); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#rec-tour-5 {
+    width: 381px;
+    height: 333px;
+    border: #808080 solid 1px;
+    border-radius: 30px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/DayTrips.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#rec-tour-5:hover {
+    transform: scale(1.065); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#rec-tour-6 {
+    width: 381px;
+    height: 333px;
+    border: #808080 solid 1px;
+    border-radius: 30px;
+    background: url(website-tour-main/img/zadgai/ThumbnailWeb/DeelteiMongol-159.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 16px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#rec-tour-6:hover {
+    transform: scale(1.065); /* Slightly increase size */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+/* Slide Show Container */
+.slide-show {
+    position: relative;
+    width: 1252px; /* Slider width */
+    overflow: hidden; /* Hide overflow for smooth sliding */
+  }
+  
+  /* Slider */
+  .slider-container {
+    display: flex;
+    padding-top: 40px;
+    transition: transform 1s ease; /* Smooth transition for sliding */
+  }
+  
+  /* Slide */
+  .slider {
+    display: flex;
+    width: 1252px; /* Each slide width */
+  }
+  
+  /* Set width for individual r-tour (3 elements per slide) */
+  .r-tour {
+    width: 381px;
+    height: 526px;
+    margin-right: 28px; /* Add some spacing between items */
+    font-family: "SF Pro Display-Medium", Helvetica;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 3px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Navigation Buttons */
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    /* transform: translateY(-50%); */
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    font-size: 2rem;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .prev {
+    left: 0px;
+  }
+  
+  .next {
+    right: 20px;
+  }
+  
+  /* Add hover effects for navigation buttons */
+  .prev:hover, .next:hover {
+    transform: scale(1.4); /* Slightly increase size */
+  }
+  .r-tour h1 {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 0 24px;
+    height: 64px;
+    margin-bottom: 10px;
+  }
+  .r-tour .tour-info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+  }
+  .tour-info div {
+    display: flex;
+    align-items: baseline;
+    line-height: 22.4px;
+    font-weight: 400;
+    padding: 5px;
+    height: 24px;
+  }
+  .tour-info div img {
+    display: flex;
+    align-self: flex-end;
+  }
+  .tour-info div p {
+    display: flex;
+    align-self: center;
+  }
+  .rec-tour h1 {
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .rec-tour {
+    margin-top: 100px;
+  }
