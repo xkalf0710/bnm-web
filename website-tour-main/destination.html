@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      // Function to fetch and display data for a given region
+function fetchDataAndDisplay(region, containerId) {
+  fetch(`http:202.179.6.26:8000/api/product/${region}`)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.json(); // Fetch JSON data
+    })
+    .then(data => {
+      const container = document.getElementById(containerId);
+      data.forEach(item => {
+        const destinationBox = document.createElement('div');
+        destinationBox.classList.add('destination');
+
+        const imageContainer = document.createElement('div');
+        imageContainer.classList.add('image-container');
+        imageContainer.style.backgroundImage = `url('http://localhost:8000/asset/${item.photo}')`;
+        imageContainer.style.height = '288px';
+        imageContainer.style.borderRadius = '10px';
+        imageContainer.style.marginRight = '20px';
+        imageContainer.style.marginBottom = '20px';
+
+        const textElement = document.createElement('div');
+        textElement.classList.add('text');
+        textElement.textContent = item.name;
+
+        imageContainer.appendChild(textElement);
+        destinationBox.appendChild(imageContainer);
+        container.appendChild(destinationBox);
+      });
+    })
+    .catch(error => console.error(`Error fetching data for ${region}:`, error));
+}
+
+// Fetch and display data for each region
+fetchDataAndDisplay('desnearby', 'destinations');
+fetchDataAndDisplay('descentral', 'central');
+fetchDataAndDisplay('dessouthern', 'south');
+fetchDataAndDisplay('deswestern', 'west');
+fetchDataAndDisplay('deseastern', 'east');
+fetchDataAndDisplay('desnorthern', 'north');
+
+    </script>
+    
+   
+
+    
+    <style>
+#central-heading {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.group-6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.image-container {
+    width: 100%;
+    height: 288px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 10px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    margin: 0 10px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="destination">
+      <div class="div">
+        <div class="overlap">
+          <img class="image" src="https://c.animaapp.com/8wdABbS5/img/image-186.png" />
+          <img class="play-button-big" src="https://c.animaapp.com/8wdABbS5/img/play-button-big.svg" />
+          <div class="head-menu">
+            <img class="line" src="https://c.animaapp.com/8wdABbS5/img/line-172-6.svg" />
+           <a href="index.html"> <img class="img" src="https://c.animaapp.com/8wdABbS5/img/image-185-7@2x.png" /></a>
+            <div class="button-small"><div class="text-wrapper">Log In</div></div>
+            <div class="search-bar">
+              <div class="frame">
+                <img class="img-2" src="https://c.animaapp.com/8wdABbS5/img/sr-search-9.svg" />
+                <div class="text-wrapper-2">Search</div>
+              </div>
+            </div>
+            <div class="text-wrapper-3">About us</div>
+          </div>
+          <div class="button-small-2">
+            <div class="text-wrapper-4">EN</div>
+            <img class="img-3" src="https://c.animaapp.com/8wdABbS5/img/sr-chevron-down-8.svg" />
+          </div>
+          <div class="group">
+            <div class="div-wrapper"><div class="text-wrapper">SEE MORE</div></div>
+            <div class="frame-wrapper">
+              <div class="frame-2">
+                <p class="welcome-to-land-of">Welcome to land of stories <br />Mongolia!</p>
+                <p class="lorem-ipsum-is">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                  industry&#39;s standard dummy text ever.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="menu">
+            <div class="news"><div class="travel-destinations">Visit Ulaanbaatar</div></div>
+            <div class="news-2">
+              <div class="travel-destinations-2">Destination</div>
+              <div class="frame-3"></div>
+            </div>
+            <div class="news"><div class="travel-destinations">Accommodation</div></div>
+            <div class="news"><div class="travel-destinations"><a href="tours.html">BNM Tours</a></div></div>
+            <div class="news"><div class="travel-destinations">Events</div></div>
+            <div class="news"><div class="travel-destinations">Info</div></div>
+            <div class="news"><div class="travel-destinations">Commercial</div></div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="overlap-group">
+            <div class="overlap-group-wrapper">
+              <div class="rectangle-wrapper"><div class="rectangle"></div></div>
+            </div>
+            <img class="image-2" src="https://c.animaapp.com/8wdABbS5/img/image-185-8@2x.png" />
+            <div class="group-2">
+              <div class="explore-who-we-are-b">Support</div>
+              <div class="group-3">
+                <div class="text-wrapper-5">About us</div>
+                <div class="text-wrapper-6">Package information</div>
+                <div class="text-wrapper-7">Terms of Service</div>
+              </div>
+            </div>
+            <div class="frame-4">
+              <div class="explore-who-we-are-b-2">Brave New Mongolia</div>
+              <p class="p">
+                Good day to everybody who is interested in our tours. We are a team of Mongolians that love nature and
+                traveling.
+              </p>
+              <div class="group-4">
+                <div class="fb-wrapper"><div class="fb"></div></div>
+                <img class="frame-5" src="https://c.animaapp.com/8wdABbS5/img/frame-48358-1.svg" />
+                <div class="frame-6">
+                  <div class="ig-wrapper"><div class="ig"></div></div>
+                </div>
+              </div>
+              <p class="phone">
+                Phone: +976 8625-6868<br />Email: bnmtours@gmail.com<br />Address: 17-22, 7-r khoroo, Sukhbaatar
+                District, Ulaanbaatar, Mongolia
+              </p>
+            </div>
+            <div class="rectangle-2"></div>
+            <p class="copyright-brave">Copyright © 2023&nbsp;&nbsp;Brave New Mongolia</p>
+            <div class="group-5">
+              <div class="badge-app-store">
+                <img class="app-store" src="https://c.animaapp.com/8wdABbS5/img/app-store-1.svg" />
+              </div>
+              <div class="badge-google-play">
+                <img class="google-play" src="https://c.animaapp.com/8wdABbS5/img/google-play-1.svg" />
+              </div>
+              <div class="text-wrapper-8">Download our mobile app</div>
+            </div>
+          </div>
+        </footer>
+        
+        <div class="frame-7">
+          <div class="text-wrapper-9">Home</div>
+          <img class="img-3" src="https://c.animaapp.com/8wdABbS5/img/sr-chevron-left-2.svg" />
+          <div class="text-wrapper-10">Destination</div>
+        </div>
+        <div class="fetch1">
+         <div id="central-heading">Nearby</div>
+        <div id="destinations" class="group-6 slider"></div>
+
+        <div id="central-heading">Central Mongolia</div>
+        <div id="central" class="group-6 slider"></div>
+
+        <div id="central-heading">Southern</div>
+        <div id="south" class="group-6 slider"></div>
+
+        <div id="central-heading">Western</div>
+        <div id="west" class="group-6 slider"></div>
+
+        <div id="central-heading">Eastern</div>
+        <div id="east" class="group-6 slider"></div>
+
+        <div id="central-heading">Northern</div>
+        <div id="north" class="group-6 slider"></div>
+      </div>
+              
+            
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

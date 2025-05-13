@@ -1,0 +1,584 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    box-sizing: border-box;
+    background-color: #E8EFFF;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    background-color: #013B7D;
+    color: #f0f0f0;
+    padding: 10px 20px;
+    height: 60px;
+  }
+  .div {
+    width: 1252px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    font-size: 1rem;
+    font-family: "SF Pro Display-Medium", Helvetica;
+  }
+  .menu a:first-child {
+    margin-right: 11px;
+  }
+  .menu a:last-child {
+    margin-right: 122px;
+    margin-left: 140px;
+  }
+  .menu a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+  }
+  .menu a img {
+    height: 38px;
+  }
+  .menu a:hover {
+    background-color: #013b7a;
+  }
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-left: 10vw;
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    width: 470px;
+    margin: auto;
+    height: 44px;
+    margin-right: 300px;
+  }
+
+  .search-bar input[type="text"] {
+    width: 100%;
+    height: 1005;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  .s-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    margin-top: 24px;
+    font-size: 1rem;
+  }
+  .overview {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    margin-top: 52px;
+    text-align: left;
+  }
+  .flex {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    margin-top: 52px;
+  }
+  .big-frame {
+    width: 80%;
+    width: 100%;
+    max-width: 600px;
+    height: 324px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+  }
+
+  .big-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .thumbnail-frame {
+    display: flex;
+    gap: 10px;
+  }
+
+  .thumbnail {
+    width: 193px;
+    height: 120px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #fff;
+  }
+
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .thumbnail.active {
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  }
+  .overview-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 2;
+    padding-right: 50px;
+    text-align: justify;
+    padding-bottom: 12px;
+  }
+  .overview-video {
+    flex: 2;
+    width: 496px;
+    height: 882px;
+  }
+  .overview h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 44px;
+  }
+  .overview h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 8px;
+    line-height: 34px;
+  }
+  .overview-text p {
+    font-size: 1.375rem;
+    line-height: 1.5rem;
+    margin-bottom: 30px;
+  }
+  .plus {
+    font-size: 1.375rem;
+    line-height: 1.5rem;
+    margin-top: 30px;
+    text-align: justify;
+  }
+  .short-container {
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 9 / 16; /* Keeps the video aspect ratio */
+    position: relative;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+  }
+  .main-img {
+    margin-top: 20px;
+  }
+  .main-img img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 20px;
+  }
+  .comp-main {
+    display: flex;
+  }
+  .comp-main .slide-show {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    border-right: #000000 2px solid;
+  }
+  .comp-main .slide-show .slider-container {
+    max-width: 598px;
+    margin: 0px;
+  }
+  .comp-main .slide-show .small-images {
+    justify-content: flex-start;
+  }
+  .tour {
+    flex: 2;
+    display: flex;
+    flex-direction: column-reverse;
+    background: url(/website-tour-main/img/CityTour/C0823.00_00_41_01.Still009.jpg) no-repeat center center/cover;
+    margin-left: 140px;
+    border-radius: 20px;
+  }
+  .main h1 {
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-size: 25px;
+    letter-spacing: 5.5px;
+    text-align: right;
+    margin-top: 24px;
+    margin-bottom: 10px;
+  }
+  .tour-det {
+    display: flex;
+    font-family: "SF Pro Display-Bold", Helvetica;
+    align-items: center;
+    background: #ffffff;
+    padding: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 100%;
+    gap: 8px;
+  }
+  .tour-det p {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    width: 150px;
+  }
+  .tour-det img {
+    width: 31px;
+    height: 31px;
+  }
+  .btn-td {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0667F0;
+    color: #fff;
+    font-size: 12px;
+    width: 70px;
+    height: 30px;
+    border-radius: 9px;
+  }
+  .btn-td:hover {
+    background-color: #1b62ad;
+  }
+  .comp {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .comp-1 {
+    display: flex;
+    margin-top: 60px;
+  }
+  .comp-2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .slide-show {
+    flex: 1;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .comp-2-text {
+    flex: 1;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    text-align: justify;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  .comp-2-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: end;
+  }
+  .comp-2-text p {
+    font-size: 1.375rem;
+    line-height: 26px;
+    margin-top: 8px;
+  }
+  .comp-text {
+    flex: 1;
+    font-family: "SF Pro Display-Medium", Helvetica;
+    text-align: justify;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  .comp-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .comp-text p {
+    font-size: 1.375rem;
+    line-height: 26px;
+    margin-top: 8px;
+  }
+  /* --- */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;
+    height: 349px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.previ {
+    left: 10px;
+}
+
+button.nexti {
+    right: 10px;
+}
+
+.small-images {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.small-images img {
+    width: 192px;
+    max-height: 115px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: border 0.3s ease;
+}
+
+.small-images img:hover {
+    border: 2px solid #007bff;
+}
+/* --- */
+.recom h1 {
+    font-family: "SF Pro Display-Medium", Helvetica;
+    font-size: 1.5rem;
+    margin-top: 60px;
+    text-align: left;
+    font-weight: 600;
+}
+.recom .slider img{
+    width: 32.7%;
+    margin: 0.3%;
+}
+.footer {
+    display: flex;
+    background-color: #013B7D;
+    height: 450px;
+    width: 100%;
+    color: #fff;
+    padding-top: 100px;
+    margin-top: 150px;
+}
+.footer .logo img {
+    width: 160px;
+    height: 73px;
+}
+.footer .logo {
+    margin-left: 60px;
+    margin-right: 200px;
+    margin-top: 26px;
+    height: 73px;
+}
+.footer .contact {
+    font-family: "SF Pro Display-Medium", Helvetica;
+    width: 506px;
+    height: 253px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.footer .contact h1 {
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+.footer .contact p {
+    margin-bottom: 24px;
+}
+.footer .contact li {
+    list-style: none;
+    text-align: left;
+}
+.footer .social {
+    margin-bottom: 24px;
+}
+.footer .support {
+    font-family: "SF Pro Display-Medium", Helvetica;
+    text-align: left;
+    margin-left: 64px;
+    margin-right: 180px;
+}
+.footer .support h1 {
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.footer .support li {
+    list-style: none;
+    line-height: 32px;
+}
+.footer .app {
+    font-family: "SF Pro Display-Medium", Helvetica;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer .app h1 {
+    font-weight: bold;
+}
+.footer .app img {
+    margin-bottom: 4px;
+}
+.bnm p {
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px #333 solid;
+}
+.recom-flex {
+  display: flex;
+  flex-direction: row;
+  height: 315px;
+  gap: 24px;
+  margin-top: 30px;
+}
+#recom-1 {
+  background: url(/website-tour-main/img/zadgai/Arvaikheer/Arvaikheer-1.jpg);
+  display: flex;
+  width: 392px;
+  height: 315px;
+  border-radius: 20px;
+  padding: 30px;
+  align-items: end;
+  color: #f4f4f4;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#recom-1:hover {
+  transform: scale(1.1); /* Slightly increase size */
+  box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+
+#recom-2 {
+  background: url(/website-tour-main/img/zadgai/Arvaikheer/Arvaikheer-1.jpg);
+  display: flex;
+  width: 392px;
+  height: 315px;
+  border-radius: 20px;
+  padding: 30px;
+  align-items: end;
+  color: #f4f4f4;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#recom-2:hover {
+  transform: scale(1.1); /* Slightly increase size */
+  box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#recom-3 {
+  background: url(/website-tour-main/img/zadgai/Arvaikheer/Arvaikheer-1.jpg);
+  display: flex;
+  width: 392px;
+  height: 315px;
+  border-radius: 20px;
+  padding: 30px;
+  align-items: end;
+  color: #f4f4f4;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+#recom-3:hover {
+  transform: scale(1.1); /* Slightly increase size */
+  box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3); /* Add a shadow effect */
+}
+#recomt-1 {
+  display: flex;
+  align-items: end;
+  width: 287.5px;
+  height: 287.5px;
+  background: url(/website-tour-main/img/zadgai/Arvaikheer/Arvaikheer-1.jpg);
+  border-radius: 20px;
+}
+#recomt-2 {
+  display: flex;
+  align-items: end;
+  width: 287.5px;
+  height: 287.5px;
+  background: url(/website-tour-main/img/zadgai/Arvaikheer/Arvaikheer-1.jpg);
+  border-radius: 20px;
+}
+#recomt-3 {
+  display: flex;
+  align-items: end;
+  width: 287.5px;
+  height: 287.5px;
+  background: url(/website-tour-main/img/zadgai/Arvaikheer/Arvaikheer-1.jpg);
+  border-radius: 20px;
+}
+#recomt-4 {
+  display: flex;
+  align-items: end;
+  width: 287.5px;
+  height: 287.5px;
+  background: url(/website-tour-main/img/zadgai/Arvaikheer/Arvaikheer-1.jpg);
+  border-radius: 20px;
+}
+.btn-get {
+  display: flex;
+  justify-self: right;
+  background-color: #007bff;
+  color: #f4f4f4;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.btn-get:hover {
+  background-color: #1b62ad;
+}
