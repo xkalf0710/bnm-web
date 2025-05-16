@@ -1,6 +1,215 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <h1>Terelj</h1>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+     <script src="https://cdn.tailwindcss.com"></script>
+     <style>
+        /* body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        } */
+
+        .navbar {
+        background-color: #15407b;
+        color: white;
+        }
+
+        .navbar-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 40px;
+        background-color: #174a8b;
+        }
+
+        .brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        }
+
+        .brand .logo {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        }
+
+        .nav-links-top a {
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+        font-weight: 500;
+        }
+
+        .search-bar {
+        display: flex;
+        align-items: center;
+        position: relative;
+        flex: 1;
+        max-width: 400px;
+        margin: 0 40px;
+        }
+
+        .search-bar input {
+        width: 100%;
+        padding: 8px 40px 8px 15px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        }
+
+        .search-bar i {
+        position: absolute;
+        right: 15px;
+        color: #2e76ff;
+        }
+
+        .nav-buttons {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        }
+
+        .user-btn {
+        background-color: #2e76ff;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 8px 10px;
+        font-size: 16px;
+        cursor: pointer;
+        }
+
+        .lang-selector {
+        background-color: #1c3c70;
+        color: white;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 6px 10px;
+        cursor: pointer;
+        }
+
+        .navbar-bottom {
+        background-color: #0f3367;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+        }
+
+        .navbar-bottom a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: 500;
+        position: relative;
+        }
+
+        .navbar-bottom a:hover,
+        .navbar-bottom a:focus {
+        text-decoration: underline;
+        }
+
+     </style>
+    <title>Terelj</title> 
+    <body class="bg-blue-50 text-gray-800 font-sans">
+        <header class="navbar">
+            <div class="navbar-top">
+                <div class="brand">
+                    <img src="" alt="BNM logo" class="logo" />
+                    <span>BNM</span>
+                </div>
+                <div class="nav-links-top">
+                    <a href="#">About us</a>
+                </div>
+
+                <div class="search-bar">
+                    <input type="text" placeholder="Search" />
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="nav-buttons">
+                    <button class="user-btn"><i class="fas fa-user"></i></button>
+                    <select class="lang-selector">
+                        <option>EN</option>
+                        <option>MN</option>
+                    </select>
+                </div>
+            </div>
+
+            <nav class="navbar-bottom">
+                <a href="#">Home</a>
+                <a href="#">Visit Ulaanbaatar</a>
+                <a href="#">Destinations</a>
+                <a href="#">Accommodation</a>
+                <a href="#">BNM Tour</a>
+                <a href="#">Events</a>
+                <a href="#">Info</a>
+                <a href="#">Commercial</a>
+            </nav>
+        </header>
+
+        <div class="max-w-6xl mx-auto p-6 space-y-8">
+            <!-- Back -->
+             <a href="#" class="text-sm text-blue-600 hover:underline">&larr; Back</a>
+
+             <!-- title and tag -->
+              <div>
+                <h1 class="text-3xl font-semibold">Terelj National Park</h1>
+                <div class="flex items-center mt-2 space-x-2">
+                    <div class="w-2 h-2 bg-red-500 rounded-full"></div>
+                    <span class="text-blue-600 text-sm"> Day Trips</span>
+                </div>
+              </div>
+
+             <!-- Description and Media --> 
+
+             <div class="grid md:grid-cols-2 gap-6">
+                <!-- Left Content -->
+                 <div class="space-y-4">
+                    <p class="text-sm leading-relaxed">
+                       If you're looking for a place to get out of Ulaanbaatar and really see some of 
+                       Mongolia's natural beauty, Terelj National Park is the perfect spot. It's only about 
+                       an hour and a half drive from the city, but it feels like a completely different world. The landscapes here are just stunning--huge rock formations, green valleys, and the Tuul River winding through the park.People come here to hike, camp, and even stay in ger camps with local nomadic families, so you can really get a feel for traditional Mongolian life while you're surrounded by nature. One of the coolest things about Terelj is how peaceful it is. You can ride horses through the park, take a quiet walk by the river, or just sit and watch the clouds roll over the mountains.There's plenty of space to just breathe and take it all in.
+                    </p>
+                    <button class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 text-sm">
+                        Get Directions
+                    </button>
+
+                    <!-- Image gallery -->
+                     <div>
+                        <div class="aspect-video overflow-hidden rounded-lg mb-2 relative">
+                            <img src="img/Home/AltaiTavanBogd.jpg" alt="Main landscape"
+                            class="w-full h-full object-cover">
+                            <div class="absolute bottom-2 right-2 bg-white rounded-full p-1 shadow-md">
+                                <svg class="w-4 h-4 text-gray-800" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M4 4v12l10-6-10-6z" />
+                            </svg>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-2">
+                            <img src="img/Home/Amarbaysgalant.jpg" alt="Small 1" class="w-1/3 rounded-md object-cover">
+                            <img src="img/Home/AltaiTavanBogd.jpg" alt="Small 2" class="w-1/3 rounded-md object-cover">
+                            <img src="img/Home/AltaiTavanBogd.jpg" alt="Small 3" class="w-1/3 rounded-md object-cover">
+                        </div>
+                     </div>
+                 </div>
+
+                 <!-- Video Thumbnail -->
+                    <div class="relative overflow-hidden rounded-xl aspect-[9/16] shadow-lg">
+                        <!-- <img src="https://via.placeholder.com/400x700" alt="Night sky" class="object-cover w-full h-full"> -->
+                         <iframe class="object-cover w-full h-full" src="https://www.youtube.com/embed/BXY36CGYikw?si=O5VDH_iTXC5blMdd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+                        <button class="bg-white p-4 rounded-full shadow-lg hover:scale-105 transition-transform">
+                            <svg class="w-6 h-6 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M6 4l10 6-10 6V4z" />
+                            </svg>
+                        </button>
+                        </div>
+                    </div>
+             </div>
+        </div>
     </body>
+   </head>
 </html>

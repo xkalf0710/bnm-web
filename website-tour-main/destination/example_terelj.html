@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Turtle Rock</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .slider-thumb img {
+      opacity: 0.6;
+      transition: opacity 0.3s ease;
+    }
+    .slider-thumb img.active {
+      opacity: 1;
+      border: 2px solid #3b82f6;
+    }
+  </style>
+</head>
+<body class="bg-blue-50 text-gray-800 font-sans">
+  <div class="max-w-7xl mx-auto p-6 grid md:grid-cols-2 gap-6 items-start">
+    <!-- Text Content -->
+    <div>
+      <h2 class="text-3xl font-semibold mb-4">Turtle Rock</h2>
+      <p class="mb-4 text-sm leading-relaxed">
+        You can’t visit Terelj without checking out Turtle Rock. Locals call it Мэлхий хад, and once you see it, you’ll understand why—this giant rock looks just like a turtle! It’s one of those places you just have to stop and snap a picture...
+      </p>
+      <button class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 text-sm">
+        <svg class="w-4 h-4 inline-block mr-1" fill="currentColor" viewBox="0 0 20 20"><path d="M10.707 2.293a1 1 0 00-1.414 0L2.293 9.293a1 1 0 001.414 1.414L10 4.414l6.293 6.293a1 1 0 001.414-1.414L10.707 2.293z"/></svg>
+        Get Directions
+      </button>
+    </div>
+
+    <!-- Image Slider -->
+    <div>
+      <div class="aspect-video rounded-xl overflow-hidden relative mb-3">
+        <img id="mainImage" src="https://via.placeholder.com/800x400?text=Turtle+Rock+1" class="w-full h-full object-cover" />
+        <!-- Arrow Controls -->
+        <button onclick="prevImage()" class="absolute left-2 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow">
+          &#8592;
+        </button>
+        <button onclick="nextImage()" class="absolute right-2 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow">
+          &#8594;
+        </button>
+      </div>
+      <!-- Thumbnails -->
+      <div class="flex gap-2 slider-thumb">
+        <img src="https://via.placeholder.com/200x100?text=Turtle+Rock+1" onclick="selectImage(0)" class="w-1/4 rounded cursor-pointer active" />
+        <img src="https://via.placeholder.com/200x100?text=Turtle+Rock+2" onclick="selectImage(1)" class="w-1/4 rounded cursor-pointer" />
+        <img src="https://via.placeholder.com/200x100?text=Turtle+Rock+3" onclick="selectImage(2)" class="w-1/4 rounded cursor-pointer" />
+        <img src="https://via.placeholder.com/200x100?text=Turtle+Rock+4" onclick="selectImage(3)" class="w-1/4 rounded cursor-pointer" />
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const images = [
+      "https://via.placeholder.com/800x400?text=Turtle+Rock+1",
+      "https://via.placeholder.com/800x400?text=Turtle+Rock+2",
+      "https://via.placeholder.com/800x400?text=Turtle+Rock+3",
+      "https://via.placeholder.com/800x400?text=Turtle+Rock+4"
+    ];
+    let currentIndex = 0;
+
+    function updateImage() {
+      document.getElementById("mainImage").src = images[currentIndex];
+      const thumbnails = document.querySelectorAll(".slider-thumb img");
+      thumbnails.forEach((thumb, idx) => {
+        thumb.classList.toggle("active", idx === currentIndex);
+      });
+    }
+
+    function nextImage() {
+      currentIndex = (currentIndex + 1) % images.length;
+      updateImage();
+    }
+
+    function prevImage() {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      updateImage();
+    }
+
+    function selectImage(index) {
+      currentIndex = index;
+      updateImage();
+    }
+  </script>
+</body>
+</html>
